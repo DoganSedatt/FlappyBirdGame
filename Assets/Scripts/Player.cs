@@ -14,9 +14,9 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))//Sadece bir kez çalýþmasý için down kodu kullanýldý.
         {
-            rb.velocity = Vector2.up * ziplama_Gucu;
+            rb.velocity = Vector2.up * ziplama_Gucu;//Objemin hýzýný yukarý yönde artýrýyorum ve bunuda float bir deðerle çarpýyorum
         }
     }
 }
