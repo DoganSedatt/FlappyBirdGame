@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -25,6 +26,14 @@ public class Player : MonoBehaviour
         if (collision.name == "ScoreArea")
         {
             managerGame.Score();
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "DeadArea")
+        {
+            Time.timeScale = 0;
+            managerGame.Dead();
         }
     }
 }
