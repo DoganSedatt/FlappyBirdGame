@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PipeMove : MonoBehaviour
 {
-
-
     public float speed;
     void Update()
     {

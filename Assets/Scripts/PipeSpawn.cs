@@ -24,7 +24,7 @@ public class PipeSpawn : MonoBehaviour
             GameObject newPipe = Instantiate(pipe);
             newPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
             //Yeni pipe oluþtur ve bunu her 1 saniyede bir yap.
-            Destroy(newPipe, 15);//Daha sonra o pipe'ý 15 saniyede yok et.
+            Destroy(newPipe, 10);//Daha sonra o pipe'ý 15 saniyede yok et.
             timer = 0;//Timeri 0'a eþitleki bu kod sürekli döngü halinde çalýþsýn.
         }
         timer += Time.deltaTime;//Sayaç(Saniyede 1 artar);
