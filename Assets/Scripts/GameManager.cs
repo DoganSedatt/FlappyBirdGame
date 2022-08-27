@@ -9,11 +9,13 @@ public class GameManager : MonoBehaviour
     public int score;
     public Text scoreText;
     public GameObject gameOver,restart;
+    public AudioSource soundSource;
 
     public void Score()
     {
         score++;
         scoreText.text = score.ToString();
+        soundSource.Play();
     }
     public void Dead()
     {
