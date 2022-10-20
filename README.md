@@ -1,6 +1,6 @@
 # FlappyBirdGame
 
-                                                                OYUN İÇİ GÖRÜNTÜLER
+                                               OYUN İÇİ GÖRÜNTÜLER
 ![Ekran Alıntısı2](https://user-images.githubusercontent.com/79220327/197046474-27c4985d-d3aa-44a6-b59b-5fbc855ab018.PNG)
 
 
