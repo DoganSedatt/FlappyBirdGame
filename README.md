@@ -14,6 +14,6 @@
 
 
                                                        KOD DOSYALARI
-                                                       
-![playercs](https://user-images.githubusercontent.com/79220327/197048821-e612b530-ec24-4b71-bee6-ffcc3cb606fa.PNG)
+
 Player(Kuş) hareketinin kodu. Aynı zamanda içinde ölüm ve skor gibi durumları da kontrol ediyor. Duruma göre başka scriptten metod çekiyor. (28. ve 35.satırlar)
+![playercs](https://user-images.githubusercontent.com/79220327/197048821-e612b530-ec24-4b71-bee6-ffcc3cb606fa.PNG)
